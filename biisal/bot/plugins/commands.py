@@ -64,7 +64,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
     chat_id=m.chat.id,
-    photo="https://telegra.ph/file/485236b8cf0f0cb2b543d.jpg https://telegra.ph/file/a981fd27a959f7826cb7a.jpg https://telegra.ph/file/4c1b83aaefe560ec85f0b.jpg",
+    photo="https://telegra.ph/file/485236b8cf0f0cb2b543d.jpg",
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
