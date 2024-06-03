@@ -21,7 +21,7 @@ SRT_TXT = """<b>Hᴇʟʟᴏ {}!,
 ɪ ᴀᴍ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ!
 sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ 😍
 
-~ Created with : <a href='https://t.me/iPopCormbot'>Jᴀᴅᴜ👽</a></b>"""
+~ Created by : <a href='https://t.me/iPopCormbot'>Jᴀᴅᴜ👽</a></b>"""
 
 @StreamBot.on_message(filters.command("start") & filters.private )
 async def start(b, m):
