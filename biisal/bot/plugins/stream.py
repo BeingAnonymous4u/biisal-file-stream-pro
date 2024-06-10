@@ -21,7 +21,7 @@ MY_PASS = os.environ.get("MY_PASS", None)
 pass_dict = {}
 pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 
-msg_text ="""<b>‣ 𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 ! 😎
+msg_text ="""<b><u> 𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u> 😎
 
 📂 Fɪʟᴇ ɴᴀᴍᴇ : <i>{}</i>
 /n📦 Fɪʟᴇ ꜱɪᴢᴇ : {}
