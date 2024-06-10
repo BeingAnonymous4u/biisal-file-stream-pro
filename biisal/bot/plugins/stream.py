@@ -23,8 +23,8 @@ pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 
 msg_text ="""<b><u> 𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u> 😎
 
-📂 Fɪʟᴇ ɴᴀᴍᴇ : <i>{}</i>
-/n📦 Fɪʟᴇ ꜱɪᴢᴇ : {}
+📂 Fɪʟᴇ ɴᴀᴍᴇ : <i>{}</i>/n
+📦 Fɪʟᴇ ꜱɪᴢᴇ : {}
 
 🔻 <a href="{}">𝗙𝗔𝗦𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗</a>
 🔺 <a href="{}">𝗪𝗔𝗧𝗖𝗛 𝗢𝗡𝗟𝗜𝗡𝗘</a>
