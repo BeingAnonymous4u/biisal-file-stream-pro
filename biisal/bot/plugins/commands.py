@@ -18,9 +18,8 @@ from biisal.vars import bot_name , bisal_channel , bisal_grp
 
 SRT_TXT = """<b>Hᴇʟʟᴏ {}
 
-I ᴀᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ.
-Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.! 
-🕳️ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/iPopCormbot'>Jᴀᴅᴜ👻</a></b>"""
+I ᴀᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ. Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.! 
+👩‍💻 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/iPopCormbot'>Jᴀᴅᴜ👻</a></b>"""
 
 @StreamBot.on_message(filters.command("start") & filters.private )
 async def start(b, m):
@@ -70,14 +69,14 @@ async def start(b, m):
         [
             [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 📢", url=bisal_channel)],
             [
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
-                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
+                 InlineKeyboardButton("📚 ᴀʙᴏᴜᴛ", callback_data="about"),
+                 InlineKeyboardButton("ℹ️ ʜᴇʟᴘ", callback_data="help")
             ],
             [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=bisal_grp)],
 
             [
                  InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
+                 InlineKeyboardButton("😎 ᴅᴇᴠ", callback_data="aboutDev")
             ]
         ]
     )
@@ -209,14 +208,14 @@ async def cb_handler(client, query):
                 [
             [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 📢", url=bisal_channel)],
             [
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
-                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
+                 InlineKeyboardButton("📚 ᴀʙᴏᴜᴛ", callback_data="about"),
+                 InlineKeyboardButton("ℹ️ ʜᴇʟᴘ", callback_data="help")
             ],
             [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=bisal_grp)],
 
             [
                  InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
+                 InlineKeyboardButton("😎 ᴅᴇᴠ", callback_data="aboutDev")
             ]
         ]
             )
