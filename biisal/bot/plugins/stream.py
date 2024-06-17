@@ -24,12 +24,13 @@ pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 msg_text ="""<b><u> 𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u> 😎
 
 📂 Fɪʟᴇ ɴᴀᴍᴇ : <i>{}</i>
+
 📦 Fɪʟᴇ ꜱɪᴢᴇ : {}
 
 🔻 <a href="{}">𝗙𝗔𝗦𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗</a>
 🔺 <a href="{}">𝗪𝗔𝗧𝗖𝗛 𝗢𝗡𝗟𝗜𝗡𝗘</a>
 
-‣ ɢᴇᴛ <a href="https://t.me/+bEarHRzuylxjMTk1">🎉 ᴍᴏʀᴇ ғɪʟᴇs 🎉</a></b> """
+‣ ɢᴇᴛ <a href="https://t.me/+bEarHRzuylxjMTk1">Mᴏʀᴇ Fɪʟᴇs 📚</a></b> """
 
 
 
@@ -60,7 +61,7 @@ async def private_receive_handler(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🚩", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 📢", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -88,8 +89,8 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link),
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝗪𝗮𝘁𝗰𝗵 𝗼𝗻𝗹𝗶𝗻𝗲 🔺", url=stream_link), #Stream Link
-                                                InlineKeyboardButton('𝗙𝗮𝘀𝘁 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 🔻', url=online_link)]]) #Download Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🔺", url=stream_link), #Stream Link
+                                                InlineKeyboardButton('Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ 🔻', url=online_link)]]) #Download Link
         )
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
@@ -118,8 +119,8 @@ async def channel_receive_handler(bot, broadcast):
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("𝗪𝗮𝘁𝗰𝗵 𝗼𝗻𝗹𝗶𝗻𝗲 🔺", url=stream_link),
-                    InlineKeyboardButton('𝗙𝗮𝘀𝘁 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 🔻', url=online_link)] 
+                    [InlineKeyboardButton("Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🔺", url=stream_link),
+                    InlineKeyboardButton('Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ 🔻', url=online_link)] 
                 ]
             )
         )
