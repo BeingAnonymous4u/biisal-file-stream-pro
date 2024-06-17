@@ -63,7 +63,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
     chat_id=m.chat.id,
-    photo="https://telegra.ph/file/228dad21531b701bd9b35.jpg",
+    photo="https://telegra.ph/file/228dad21531b701bd9b35.jpg https://telegra.ph/file/36764edd4b70daa01fd1e.jpg https://telegra.ph/file/672e1397dd7550a357708.jpg https://telegra.ph/file/cd79eccf9a2cccc8e630e.jpg https://telegra.ph/file/fed9cb0ea1b99e8a7c829.jpg https://telegra.ph/file/6468d41665bb5d575432b.jpg https://telegra.ph/file/28fb38b2eaa058a8d52d5.jpg https://telegra.ph/file/d1c60c99570c3dc5bcd90.jpg https://telegra.ph/file/be6d32d7eac29f2263b13.jpg https://telegra.ph/file/da9b891ca8197a54ace8d.jpg",
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
