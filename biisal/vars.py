@@ -15,7 +15,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', ''))
     API_HASH = str(getenv('API_HASH', ''))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
-    name = str(getenv('name', 'bisal_file2link_bot'))
+    name = str(getenv('name', 'file2link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001971825063'))
@@ -39,7 +39,7 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', ''))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://satyajeetkumarofficial:Guriya50@cluster0.dmmijuh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'hdhindibackup')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
