@@ -66,7 +66,7 @@ async def start(b, m):
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 📢", url=bisal_channel)],
+            [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ Tᴏ Cʜᴀɴɴᴇʟ ➕", url=f"https://t.me/File_To_Fast_Link_Bot?startchannel&admin=post_messages+edit_messages+delete_messages")],
             [
                  InlineKeyboardButton("📚 ᴀʙᴏᴜᴛ", callback_data="about"),
                  InlineKeyboardButton("ℹ️ ʜᴇʟᴘ", callback_data="help")
