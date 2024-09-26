@@ -38,7 +38,7 @@ class Var(object):
     if HAS_SSL:
         URL = "https://{}/".format(FQDN)
     else:
-        URL = "http://{}/".format(FQDN)
+        URL = "https://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://ii7gbfk91p05:ha3TllXC99F3N9EQ@cluster0.wgmua.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'hdhindibackup')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
