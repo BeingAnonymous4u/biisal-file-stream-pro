@@ -12,9 +12,9 @@ bisal_grp = "https://t.me/+Od-ypOY9WW0xYjk1"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', ''))
-    API_HASH = str(getenv('API_HASH', ''))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
+    API_ID = int(getenv('API_ID', '21207644'))
+    API_HASH = str(getenv('API_HASH', '0143a7ea5d697fc0c0c5a4899b5b9314'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7373639489:AAG6MlMXB9FZoZNTFpNoyLeyLuuHeuFJmG4'))
     name = str(getenv('name', 'file2link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
