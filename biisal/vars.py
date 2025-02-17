@@ -14,12 +14,12 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '21207644'))
     API_HASH = str(getenv('API_HASH', '0143a7ea5d697fc0c0c5a4899b5b9314'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7373639489:AAG6MlMXB9FZoZNTFpNoyLeyLuuHeuFJmG4'))
-    name = str(getenv('name', 'file2link_bot'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
+    name = str(getenv('name', 'FileLinkRo_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001971825063'))
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1001971825063'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002160257812'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002160257812'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
