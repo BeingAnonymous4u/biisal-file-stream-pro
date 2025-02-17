@@ -33,7 +33,7 @@ class Var(object):
     
     else:
         ON_HEROKU = False
-    FQDN = "married-milissent-filmfree-333e214f.koyeb.app"
+    FQDN = "icy-kirbie-storeboton-57ee0752.koyeb.app"
     HAS_SSL = bool(getenv('HAS_SSL', True))
     if HAS_SSL:
         URL = "https://{}/".format(FQDN)
